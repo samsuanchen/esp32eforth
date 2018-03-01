@@ -1,19 +1,31 @@
 # esp32eforth
-Derived from espForth_44 for esp32 wifiboy and NodeMCU 12E  by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
+esp32eforth is derived from espForth_44 on esp8266 via arduino by Chen-Hanson Ting.
+It is for esp32 wifiboy and NodeMCU 12E via arduino IDE by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
+
+img_001 esp32 wifiboy front
+
+img_002 esp32 wifiboy back
+
+## arduino IDE
+Install arduino IDE first. Create a new sketch.
+
 ## ver 1
 First derived from espForth_44 by Albert Lu, Sam Suan Chen, Chen-Hanson Ting on 22 sep 2017.
 #### Modify esp8266 espForth_44.ino for esp32 wifiboy and NodeMCU 12E as esp32eforth.
-    1. ignored WIFI and UDP
-    2. ignored tone() since not yet implemented for ESP32.
-    3. added input line echoing.
+    1. ignore WIFI and UDP
+    2. ignore tone() since not yet implemented for ESP32.
+    3. add input line echoing.
     4. modify COLD at the end to call .OK stead of CR.
     5. modify .OK to print one more space.
 #### Try wifiboy led control line by line.
 The back slash "\" and the left parenthesis "(" are comment words. All the messages after back slash and between parentheses will be ignored.
 
-	\ show all defined words
+	\ to show all defined words, enter the following: 
 	words
-    \ set wifiboy led pin as output direction.
+
+img_010 show_all_words
+
+    \ to set wifiboy led pin as output direction (led on), enter the following:
     2 ( output ) 10 ( led pin gpio# in hex ) pinSel
     \ set led pin level high to turn off led.
     1 ( high ) decimal 16 ( led pin gpio# in decimal ) pinOut
@@ -34,6 +46,6 @@ The back slash "\" and the left parenthesis "(" are comment words. All the messa
     \ define on to turn on led.
     : on low led pinOut wait ;
     \ define blinks to blink given number of times.
-    : blinks for aft H L then next ;
+    : blinks for aft on off then next ;
     \ blink 5 times.
     5 blinks
