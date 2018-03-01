@@ -1,10 +1,10 @@
 # esp32eforth
 esp32eforth is derived from espForth_44 on esp8266 via arduino by Chen-Hanson Ting.
 It is for esp32 wifiboy and NodeMCU 12E via arduino IDE by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
-![img_001 esp32 wifiboy front](jpg/0010_wifiboy_front.jpg =100)
-img_001 esp32 wifiboy front
-
-img_002 esp32 wifiboy back
+<img src="jpg/0010_wifiboy_front.jpg" width = "50%" alt="0010_wifiboy_front.jpg" align=center />
+0010_wifiboy_front.jpg
+<img src="jpg/0020_wifiboy_back.jpg" width = "50%" alt="0020_wifiboy_back.jpg" align=center />
+0020_wifiboy_back.jpg
 
 ## arduino IDE
 Install arduino IDE first. Create a new sketch.
