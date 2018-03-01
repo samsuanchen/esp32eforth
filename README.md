@@ -1,8 +1,8 @@
 # esp32eforth
-Derived from espForth_44 by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
+Derived from espForth_44 for esp32 wifiboy and NodeMCU 12E  by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
 ## ver 1
 First derived from espForth_44 by Albert Lu, Sam Suan Chen, Chen-Hanson Ting on 22 sep 2017.
-### Modify esp8266 espForth_44.ino for esp32 wifiboy as esp32eforth.
+### Modify esp8266 espForth_44.ino for esp32 wifiboy and NodeMCU 12E as esp32eforth.
     1. ignored WIFI and UDP
     2. ignored tone() since not yet implemented for ESP32.
     3. added input line echoing.
@@ -24,8 +24,8 @@ First derived from espForth_44 by Albert Lu, Sam Suan Chen, Chen-Hanson Ting on 
     0 constant low
     \ define W to wait for a while.
     : wait FFFFF for next ;
-    \ define off to turn off led.
-    : off high led pinOut wait ;
+    \ define off to turn off led.
+    : off high led pinOut wait ;
     \ define on to turn on led.
     : on low led pinOut wait ;
     \ define blinks to blink given number of times.
