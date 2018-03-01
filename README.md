@@ -1,18 +1,41 @@
 # esp32eforth
 esp32eforth is derived from espForth_44 on esp8266 via arduino by Chen-Hanson Ting.
 It is for esp32 wifiboy and NodeMCU 12E via arduino IDE by Derek Lai, Albert Lu, Sam Suan Chen, Chen-Hanson Ting.
-<table><tr><td>
-<img src="jpg/0010_wifiboy_front.jpg" width = "80%" alt="0010_wifiboy_front.jpg" align=center />
-</td><td>
-<img src="jpg/0020_wifiboy_back.jpg" width = "80%" alt="0020_wifiboy_back.jpg" align=center />
+<table><tr><td valign="middle"><center>
+<img src="jpg/0010_wifiboy_front.jpg" width = "90%" alt="0010_wifiboy_front.jpg" align=center />
+</td><td valign="middle"><center>
+<img src="jpg/0020_wifiboy_back.jpg" width = "90%" alt="0020_wifiboy_back.jpg" align=center />
 </td></tr>
-<tr><td>
-0010_wifiboy_front.jpg
-</td><td>
-0020_wifiboy_back.jpg
+<tr><td valign="middle"><center>
+img01 wifiboyfront
+</td><td valign="middle"><center>
+img02 wifiboy back
 </td></tr></table>
+
 ## arduino IDE
 Install arduino IDE first. Create a new sketch.
+<table>
+<tr><td valign="middle"><center>
+<img src="jpg/0030_arduino_IDE_selectNew.jpg" width = "90%" alt="0030_arduino_IDE_selectNew.jpg" align=center />
+</td><td valign="middle"><center>
+<img src="jpg/0031_arduino_IDE_createNewSketch.jpg" width = "90%" alt="0031_arduino_IDE_createNewSketch.jpg" align=center />
+</td></tr>
+<tr><td valign="middle"><center>
+img03 select New
+</td><td valign="middle"><center>
+img04 create New Sketch
+</td></tr>
+<tr><td valign="middle"><center>
+<img src="jpg/0032_arduino_IDE_clearPasteAndSaveAs.jpg" width = "90%" alt="0032_arduino_IDE_clearPasteAndSaveAs.jpg" align=center />
+</td><td valign="middle"><center>
+<img src="jpg/0033_arduino_IDE_saveAs_esp32ef_11.jpg" width = "90%" alt="0033_arduino_IDE_saveAs_esp32ef_11.jpg" align=center />
+</td></tr>
+<tr><td valign="middle"><center>
+img05 clear, copy, paste, and SaveAs
+</td><td valign="middle"><center>
+img06 saveAs esp32ef_11
+</td></tr>
+</table>
 
 ## ver 1
 First derived from espForth_44 by Albert Lu, Sam Suan Chen, Chen-Hanson Ting on 22 sep 2017.
